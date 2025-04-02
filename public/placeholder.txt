@@ -1,0 +1,1 @@
+This is a placeholder file. The public/ folder is used for storing images and static assets.
