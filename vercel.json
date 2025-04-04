@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "regions": ["syd1"],
-  "routes": [
-    { "src": "/api/hello", "dest": "/api/hello.js" }
-  ]
+  "regions": ["syd1"]
 }
