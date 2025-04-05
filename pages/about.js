@@ -7,8 +7,8 @@ export default function About() {
       <nav>
         <Link href="/">Home</Link> | 
         <Link href="/about">About</Link> | 
-        <Link href="/services">Services</Link> | 
-        <Link href="/contact">Contact</Link>
+        <Link href="/services">Meetings</Link> | 
+        <Link href="/contact">Notices</Link>
       </nav>
 
       {/* Page content */}
