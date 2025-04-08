@@ -1,19 +1,14 @@
 import Link from 'next/link';
+import styles from './about.module.css';
 
 export default function About() {
   return (
-    <div>
-      {/* Navigation links at the top of the page */}
-      <nav>
-        <Link href="/">Home</Link> | 
-        <Link href="/about">About</Link> | 
-        <Link href="/services">Meetings</Link> | 
-        <Link href="/contact">Notices</Link>
-      </nav>
+    <div className={styles.container}>
+      <h1>About Strata Management</h1>
+      <p>We manage your strata buildings efficiently, ensuring peace of mind for all residents.</p>
 
-      {/* Page content */}
-      <h1>About Our Strata Management</h1>
-      <p>We are committed to excellent management and providing a great experience for our residents. Learn more about our services and how we manage our properties effectively.</p>
+      <Link href="/">Back to Home</Link>
     </div>
   );
+}
 }
