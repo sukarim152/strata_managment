@@ -1,4 +1,32 @@
 {
   "version": 2,
-  "regions": ["syd1"]
+  "regions": ["syd1", "iad1"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "public/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/api/hello", "dest": "/api/hello.js" },
+    { "src": "/about", "dest": "/pages/about.js" }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SUPPORT_EMAIL": "support@example.com",
+    "NEXT_PUBLIC_API_URL": "https://api.example.com"
+  },
+  "crons": [
+    {
+      "path": "/api/cleanup",
+      "schedule": "0 0 * * *"  // Every day at midnight
+    }
+  ],
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/old-path", "destination": "/new-path", "permanent": true }
+  ]
 }
