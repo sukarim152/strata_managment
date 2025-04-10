@@ -1,15 +1,5 @@
-/* styles/about.module.css */
-.container {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-radius: 5px;
-  font-family: Arial, sans-serif;
-}
 
-h1 {
-  color: #333;
-}
-
-p {
-  color: #666;
+.title {
+  color: red;
+  font-size: 32px;
 }
