@@ -6,10 +6,11 @@ export default function Home() {
   return (
     <div>
       <nav>
-        <Link href="/">Home</Link> | 
         <Link href="/about">About</Link> | 
         <Link href="/services">Services</Link> | 
-        <Link href="/contact">Contact</Link>
+        <Link href="/contact">Contact</Link> | 
+        <Link href="/terms">Terms and Conditions</Link> | 
+        <Link href="/privacy">Privacy Policy</Link>
       </nav>
 
       <h1>Welcome to Strata Management</h1>
