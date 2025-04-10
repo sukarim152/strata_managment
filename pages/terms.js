@@ -1,14 +1,18 @@
-// pages/terms.js
 import Link from 'next/link';
-import styles from './terms.module.css';
 
 export default function Terms() {
   return (
-    <div className={styles.container}>
-      <h1>Terms and Conditions</h1>
-      <p>By using our services, you agree to the following terms...</p>
+    <div>
+      <nav>
+        <Link href="/">Home</Link> | 
+        <Link href="/about">About</Link> | 
+        <Link href="/services">Services</Link> | 
+        <Link href="/contact">Contact</Link> | 
+        <Link href="/privacy">Privacy</Link>
+      </nav>
 
-      <Link href="/">Back to Home</Link>
+      <h1>Terms & Conditions</h1>
+      <p>All users must adhere to strata management guidelines. Service terms apply.</p>
     </div>
   );
 }
