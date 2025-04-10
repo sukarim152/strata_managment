@@ -1,5 +1,11 @@
-
+/* styles/about.module.css */
 .title {
-  color: red;
-  font-size: 32px;
+  color: darkblue;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
