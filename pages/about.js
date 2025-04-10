@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './about.module.css';
+import styles from '../styles/about.module.css'; // Import the CSS module
 
 export default function About() {
   return (
