@@ -1,26 +1,4 @@
-/* pages/contact.module.css */
 .container {
-  font-family: 'Arial', sans-serif;
-  background-color: #fff;
   padding: 20px;
-  border-radius: 5px;
-}
-
-textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
+  background-color: #f9f9f9;
 }
