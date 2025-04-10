@@ -1,13 +1,20 @@
+// pages/about.js
+import styles from '../styles/about.module.css';
 import Link from 'next/link';
-import styles from '../styles/about.module.css'; // Import the CSS module
 
 export default function About() {
   return (
-    <div className={styles.container}>
-      <h1>About Strata Management</h1>
-      <p>We manage your strata buildings efficiently, ensuring peace of mind for all residents.</p>
+    <div>
+      <nav>
+        <Link href="/">Home</Link> | 
+        <Link href="/services">Services</Link> | 
+        <Link href="/contact">Contact</Link>
+      </nav>
 
-      <Link href="/">Back to Home</Link>
+      <h1 className={styles.title}>About Us</h1>
+      <p className={styles.paragraph}>
+        We manage strata properties with care and professionalism.
+      </p>
     </div>
   );
 }
