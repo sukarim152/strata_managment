@@ -12,8 +12,19 @@ export default function Contact() {
       </nav>
 
       <h1>Contact Us</h1>
-      <p>Email: support@stratamanagement.com</p>
-      <p>Phone: (02) 1234 5678</p>
+      <form method="POST" action="/api/contact">
+        <label htmlFor="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+
+        <label htmlFor="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br />
+
+        <label htmlFor="message">Message:</label><br />
+        <textarea id="message" name="message" required></textarea><br />
+
+        <button type="submit">Send</button>
+      </form>
     </div>
   );
 }
+
