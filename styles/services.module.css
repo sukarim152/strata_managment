@@ -1,0 +1,15 @@
+/* pages/services.module.css */
+.container {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eaeaea;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #555;
+}
+
+ul {
+  list-style-type: square;
+}
