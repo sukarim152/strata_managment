@@ -1,5 +1,4 @@
 // pages/about.js
-import styles from '../styles/about.module.css';
 import Link from 'next/link';
 
 export default function About() {
@@ -11,10 +10,8 @@ export default function About() {
         <Link href="/contact">Contact</Link>
       </nav>
 
-      <h1 className={styles.title}>About Us</h1>
-      <p className={styles.paragraph}>
-        We manage strata properties with care and professionalism.
-      </p>
+      <h1>About Us</h1>
+      <p>We manage strata properties with care and professionalism.</p>
     </div>
   );
 }
