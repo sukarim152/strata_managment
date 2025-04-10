@@ -1,14 +1,18 @@
-// pages/privacy.js
 import Link from 'next/link';
-import styles from './privacy.module.css';
 
 export default function Privacy() {
   return (
-    <div className={styles.container}>
-      <h1>Privacy Policy</h1>
-      <p>We value your privacy. Here's how we protect your personal data...</p>
+    <div>
+      <nav>
+        <Link href="/">Home</Link> | 
+        <Link href="/about">About</Link> | 
+        <Link href="/services">Services</Link> | 
+        <Link href="/contact">Contact</Link> | 
+        <Link href="/terms">Terms</Link>
+      </nav>
 
-      <Link href="/">Back to Home</Link>
+      <h1>Privacy Policy</h1>
+      <p>Your data is kept secure. We do not share personal information with third parties.</p>
     </div>
   );
 }
